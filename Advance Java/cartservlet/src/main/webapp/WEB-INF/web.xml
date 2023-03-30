@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <servlet>
+  	<servlet-name>SignupServlet</servlet-name>
+  	<servlet-class>com.tushar.servlet.SignupServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SignupServlet</servlet-name>
+  	<url-pattern>/signup</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>SigninServlet</servlet-name>
+  	<servlet-class>com.tushar.servlet.SigninServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>SigninServlet</servlet-name>
+  	<url-pattern>/signin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>IndexServlet</servlet-name>
+  	<servlet-class>com.tushar.servlet.IndexServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>IndexServlet</servlet-name>
+  	<url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
